@@ -1,0 +1,159 @@
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider_section .carousel-indicators {
+    margin-top: 45px;
+  }
+
+  .client_section .carousel-control-prev {
+    left: 15%;
+  }
+
+  .client_section .carousel-control-next {
+    right: 15%
+  }
+}
+
+
+@media (max-width: 767px) {
+
+
+  .client_section .carousel-control-prev {
+    left: 5%;
+  }
+
+  .client_section .carousel-control-next {
+    right: 5%;
+  }
+
+  .slider_section .detail-box,
+  .about_section .detail-box {
+    margin-bottom: 45px;
+  }
+
+}
+
+.subscribe_section .subscribe_form form button {
+  margin-top: 15px;
+}
+
+
+
+@media (max-width: 576px) {
+  .heading_container h2 {
+    font-size: 2.2rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .heading_container h2 {
+    font-size: 2rem;
+  }
+
+  .carousel_btn_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    position: unset;
+    transform: none;
+  }
+}
+
+
+@media (max-width: 426px) {
+  #whyShopbox {
+    margin-top: 3em;
+  }
+}
+
+@media (max-width: 376px) {
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .blurBox {
+    border-radius: 5px;
+    padding: 5%;
+    border: solid #fe8c8cb5 4px;
+    border-radius: 2em;
+    max-height: min-content;
+  }
+
+  .why #whyShopBox {
+    max-width: 9em;
+    max-height: fit-content;
+    margin: 3px;
+    justify-content: center;
+    padding: 0%;
+    box-sizing: content-box;
+    flex-direction: row;
+  }
+
+  #why_section .box {
+    padding: 20px 30px;
+  }
+
+  .arrival_section.box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #newArival {
+    flex-direction: column;
+    padding: 0%;
+    margin-bottom: 1em;
+  }
+
+  #newArival img {
+    margin-bottom: 2em;
+  }
+
+  #newArival a {
+    margin-bottom: 2em;
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1em;
+  }
+
+  .d-flex img {
+    width: 90%;
+
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  #menuSec {
+    padding: 0%;
+    margin-bottom: 5em;
+  }
+
+  #followSec {
+    padding: 0%;
+    margin-top: 3em;
+  }
+}
