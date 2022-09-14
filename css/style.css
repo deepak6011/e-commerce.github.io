@@ -24,7 +24,8 @@ h2 {
 
 /* CAROUSEL  */
 .blurBox {
-  background-color: rgba(255, 255, 255, 0.693);
+  background-color: rgba(255, 255, 255, 0.395);
+  backdrop-filter: blur(5px);
   border: solid #fe8c8cb5 15px;
   border-radius: 25px;
 }
